@@ -4,12 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maybes Todo App</title>
-  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="stylesheet" href="./Assets/styles/styles.css">
+
+  <link rel="shortcut icon" href="./Listra-app-logo.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.0.3/src/regular/style.css">
+
+
 </head>
 <body>
-  <input type="text" class="add-task-input">
-  <button>Add Task</button>
+  
+  <header class="header">
+    <nav>
+      <img src="./Assets/images/listra_wordmark.svg" class="logo" alt="logo">
+      <div class="search-box">
+        <input type="text" class="search-input" placeholder="Search tasks...">
+        <i class="ph ph-magnifying-glass icon"></i>
+      </div>
+      
+      <div class="menu-list">
+        <ul class="task-toggle-list">
+          <li class="task-toggle active">All</li>
+          <li class="task-toggle">Active</li>
+          <li class="task-toggle">Completed</li>
+          <li class="task-toggle">Categories</li>
+        </ul>
 
-  <script src="scripts/app.js"></script>
+        <button class="btn btn-secondary theme-toggle icon" aria-label="theme-toggle">
+          <i class="ph ph-sun sun-icon"></i>
+        </button>
+
+        <button class="user-icon icon">
+          <i class="ph ph-user"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <script src="./Assets/scripts/app.js" type="module"></script>
 </body>
 </html>

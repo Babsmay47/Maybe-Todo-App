@@ -1,0 +1,25 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .symbol { 
+        fill: none; 
+        stroke: #FFFFFF; 
+        stroke-width: 16; 
+        stroke-linecap: round; 
+        stroke-linejoin: round;
+      }
+      .text {
+        fill: #FFFFFF;
+        font-family: 'Inter', 'SF Pro Display', 'Segoe UI', Arial, sans-serif;
+        font-weight: 700;
+        font-size: 96px;
+        letter-spacing: -1px;
+      }
+    </style>
+  </defs>
+  <g transform="translate(20, 30)">
+    <path class="symbol" d="M8 8 L8 132 L132 132"/>
+    <path class="symbol" d="M42 98 L110 30"/>
+  </g>
+  <text class="text" x="180" y="130">Listra</text>
+</svg>

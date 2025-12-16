@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .symbol { fill: none; stroke: #1a1a1a; stroke-width: 20; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <!-- L shape -->
+  <path class="symbol" d="M10 10 L10 110 L110 110"/>
+  <!-- Diagonal slash with larger gap at bottom, smaller gap at top -->
+  <path class="symbol" d="M45 75 L95 25"/>
+</svg>
